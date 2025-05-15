@@ -1,1 +1,0 @@
-python3 diffusion_itm.py --task vlcheck_Object_Size_swig --version 3-m --encoder_drop

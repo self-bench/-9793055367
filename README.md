@@ -1,6 +1,6 @@
-# Diffusion ITM (Image-Text Matching) Benchmark
+# Diffusion ITM (Image-Text Matching) Benchmark with Self-Bench
 
-This project is based on the original self-bench repository and extends it with additional capabilities for evaluating diffusion models on various image-text matching tasks.
+This repository introduces **Self-Bench**, a novel framework for evaluating diffusion models on a wide range of image-text matching tasks. Self-Bench extends and builds upon the foundational work of the [McGill-NLP/diffusion-itm repository](https://github.com/McGill-NLP/diffusion-itm), incorporating its capabilities and adding new features and benchmarks.
 
 ## Overview
 
@@ -153,4 +153,10 @@ If you use this code in your research, please cite the original self-bench repos
 
 ## License
 
-This project is licensed under the same terms as the original self-bench repository.
+This project is licensed under the same terms as the original McGill-NLP/diffusion-itm repository, upon which it builds. Please refer to their license for more details.
+
+## Original Work Attribution
+
+This project builds upon the work from the McGill-NLP/diffusion-itm repository. We gratefully acknowledge their contributions to the field.
+
+Please find the original repository here: [https://github.com/McGill-NLP/diffusion-itm](https://github.com/McGill-NLP/diffusion-itm)

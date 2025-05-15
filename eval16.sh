@@ -1,1 +1,0 @@
-python3 diffusion_itm.py --task pets --version 3-m --encoder_drop
