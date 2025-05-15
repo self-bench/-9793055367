@@ -1,8 +1,5 @@
-# Diffusion ITM (Image-Text Matching) Benchmark with Self-Bench
+# Self-Bench
 
-This repository introduces **Self-Bench**, a novel framework for evaluating diffusion models on a wide range of image-text matching tasks. Self-Bench extends and builds upon the foundational work of the [McGill-NLP/diffusion-itm repository](https://github.com/McGill-NLP/diffusion-itm), incorporating its capabilities and adding new features and benchmarks.
-
-## Overview
 
 This project provides a framework for evaluating diffusion models on a wide range of image-text matching tasks. It supports multiple Stable Diffusion versions and various benchmark datasets.
 
