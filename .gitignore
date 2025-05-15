@@ -1,0 +1,262 @@
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   For a library or package, you might want to ignore these files since the code is
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   https://pdm.fming.dev/#use-with-ide
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#   in version control.
+#   install all needed dependencies.
+#   intended to run in multiple environments; otherwise, check them in:
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  Usually these files are written by a python script from a template
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+# .python-version
+# Byte-compiled / optimized / DLL files
+# C extensions
+# Celery stuff
+# Cython debug symbols
+# Distribution / packaging
+# Django stuff:
+# Environments
+# Flask stuff:
+# IPython
+# Installer logs
+# Jupyter Notebook
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+# PyBuilder
+# PyCharm
+# PyInstaller
+# Pyre type checker
+# Rope project settings
+# SageMath parsed files
+# Scrapy stuff:
+# Sphinx documentation
+# Spyder project settings
+# Translations
+# Unit test / coverage reports
+# mkdocs documentation
+# mypy
+# pdm
+# pipenv
+# poetry
+# pyenv
+# pytype static type analyzer
+#.idea/
+#Pipfile.lock
+#pdm.lock
+#poetry.lock
+*$py.class
+*.cover
+*.egg
+*.egg-info/
+*.log
+*.manifest
+*.mo
+*.pdf
+*.pot
+*.py,cover
+*.py[cod]
+*.sage.py
+*.so
+*.spec
+*pkl
+*pt
+*pthdiffusers/noise_samples_sd3.pkl
+.Python
+.cache
+.coverage
+.coverage.*
+.dmypy.json
+.eggs/
+.env
+.git/objects/94/4ddca8a2d1dd6a6c0b2186da90c94d3f7a18a8
+.git/objects/pack/pack-1a1730e305ccd0dbeab40a12ab17298271cd3d01.pack
+.git/objects/pack/pack-31f76afc027e46e437ca03a970fa9800d79293e0.pack
+.git/objects/pack/pack-50431d29d6c609be87466af20c1be65b3119fe64.pack
+.git/objects/pack/pack-b405dd1f02d5b3738314574369939febe85c9e0a.pack
+.hypothesis/
+.installed.cfg
+.ipynb_checkpoints
+.mypy_cache/
+.nox/
+.pdf
+.pdm.toml
+.pkl
+.pt
+.pth
+.pybuilder/
+.pyre/
+.pytest_cache/
+.pytype/
+.ropeproject
+.scrapy
+.spyderproject
+.spyproject
+.tox/
+.venv
+.webassets-cache
+/site
+CompBench/.git/objects/pack/pack-fcc714226fa6bbdc03bc4a38ce768eb47a7ff62b.pack
+CompBench/UniDet_eval/experts/expert_weights/Unified_learned_OCIM_R50_6x+2x.pth
+CompBench/UniDet_eval/experts/expert_weights/Unified_learned_OCIM_RS200_6x+2x.pth
+CompBench/UniDet_eval/experts/expert_weights/dpt_hybrid-midas-501f0c75.pt
+ENV/
+EqBen/src_file/private_info.json
+MANIFEST
+VL-CheckList/data/Relation/hake_action.json
+__pycache__/
+__pypackages__/
+build/
+celerybeat-schedule
+celerybeat.pid
+cover/
+coverage.xml
+cython_debug/
+data/vgr_vga_images.zip
+db.sqlite3
+db.sqlite3-journal
+develop-eggs/
+diffusers/.git/objects/pack/pack-e3181a2596e30f6df2f80b9ae6ffa0aef165b0dc.pack
+diffusers/noise_samples.pkl
+diffusers/noise_samples_sd3.pkl
+diffusers2/noise_samples.pkl
+diffusers2/noise_samples_sd3.pkl
+dist/
+dmypy.json
+docs/_build/
+downloads/
+eggs/
+env.bak/
+env/
+filter_prompts/prompts/zero_shot_prompts.json
+htmlcov/
+instance/
+ipython_config.py
+lib/
+lib64/
+local_settings.py
+nosetests.xml
+parts/
+pip-delete-this-directory.txt
+pip-log.txt
+profile_default/
+sdist/
+share/python-wheels/
+target/
+var/
+vaw_dataset/.git/objects/7d/59489f6e71876742b8b897c7cb8c98540e3ee9
+vaw_dataset/data/train_part1.json
+vaw_dataset/data/train_part2.json
+vaw_dataset/eval/pred.npy
+venv.bak/
+venv/
+vision-language-models-are-bows/~/.cache/RN50x64.pt
+vision-language-models-are-bows/~/.cache/ViT-B-32.pt
+vision-language-models-are-bows/~/.cache/ViT-L-14.pt
+vismin/.git/lfs/incomplete/26a483ff8bfdca47d6a9fe7a2b06c0a6b26045a9cde0a6fccf3389327ae71521712136892
+wheels/
+*png
+.png
+*.png
+
+# Large files and model weights
+*.pth
+*.pt
+*.pkl
+*.pickle
+*.bin
+*.h5
+*.hdf5
+*.ckpt
+*.safetensors
+*.onnx
+*.pb
+*.tflite
+*.weights
+*.model
+*.joblib
+*.npy
+*.npz
+*.tar
+*.gz
+*.zip
+*.rar
+*.7z
+*.bz2
+*.xz
+
+# Large data files
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.parquet
+*.feather
+*.arrow
+*.db
+*.sqlite
+*.sqlite3
+
+# Large image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+*.raw
+
+# Large audio files
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.m4a
+*.aac
+
+# Large video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.flv
+
+# Large text files
+*.txt
+*.log
+*.md
+*.rst
+*.tex
+
+# Score results and checkpoints
+score_results/
+checkpoints/
+wandb/
+runs/
+logs/
+outputs/
+results/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Cache directories
+.cache/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/

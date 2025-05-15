@@ -1,0 +1,1 @@
+python3 diffusion_itm.py --task vlcheck_Object_Size_hake --version 3-m

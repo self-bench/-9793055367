@@ -1,0 +1,1 @@
+python3 diffusion_itm.py --task vlcheck_Object_Location_vg --version 3-m
